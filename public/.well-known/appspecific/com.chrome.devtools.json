@@ -1,0 +1,9 @@
+{
+  "applications": [
+    {
+      "name": "Portfolio Website",
+      "type": "web",
+      "url": "http://localhost:3000"
+    }
+  ]
+}

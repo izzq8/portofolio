@@ -599,39 +599,39 @@ export default function Portfolio() {
               {[
                 {
                   id: 1,
-                  title: "Golden Hour Portrait",
+                  title: "Chainsaw Man Cosplay",
                   category: "Portrait",
-                  image: "/placeholder.jpg",
+                  image: "/photography/portrait/Cosplay Portrait/cosplay-portrait-1.webp",
                 },
                 {
                   id: 2,
-                  title: "Mountain Landscape",
-                  category: "Landscape", 
-                  image: "/placeholder.jpg",
+                  title: "Character Study",
+                  category: "Portrait", 
+                  image: "/photography/portrait/Cosplay Portrait/cosplay-portrait-3.webp",
                 },
                 {
                   id: 3,
-                  title: "Urban Life",
-                  category: "Street",
-                  image: "/placeholder.jpg",
+                  title: "Night Photography",
+                  category: "Event",
+                  image: "/photography/event/PDC Pertamina/pdc-event-1.webp",
                 },
                 {
                   id: 4,
-                  title: "Wedding Moment",
+                  title: "PDC Pertamina Event",
                   category: "Event",
-                  image: "/placeholder.jpg",
+                  image: "/photography/event/PDC Pertamina/pdc-event-3.webp",
                 },
                 {
                   id: 5,
-                  title: "Nature Close-up",
-                  category: "Landscape",
-                  image: "/placeholder.jpg",
+                  title: "Dramatic Lighting",
+                  category: "Portrait",
+                  image: "/photography/portrait/Cosplay Portrait/cosplay-portrait-5.webp",
                 },
                 {
                   id: 6,
-                  title: "Creative Portrait",
+                  title: "Professional Cosplay",
                   category: "Portrait",
-                  image: "/placeholder.jpg",
+                  image: "/photography/portrait/Cosplay Portrait/cosplay-portrait-7.webp",
                 }
               ].slice(0, 6).map((photo) => (
                 <Card

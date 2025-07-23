@@ -563,10 +563,21 @@ export default function ProjectsPage() {
                             <Button
                               variant="secondary"
                               className="flex-1"
-                              onClick={() => window.open(projectDetails.driveUrl, "_blank")}
+                              onClick={() => {
+                                // Create a temporary link element for download
+                                const link = document.createElement('a');
+                                link.href = projectDetails.driveUrl;
+                                if (projectDetails.driveUrl.endsWith('.apk')) {
+                                  link.download = 'myMovieList.apk';
+                                }
+                                link.target = '_blank';
+                                document.body.appendChild(link);
+                                link.click();
+                                document.body.removeChild(link);
+                              }}
                             >
                               <Download size={16} className="mr-2" />
-                              Download APK
+                              {projectDetails.downloadText}
                             </Button>
                           )}
                         </>

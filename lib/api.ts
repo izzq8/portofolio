@@ -66,7 +66,7 @@ export const getProjectDetails = (projectId: string) => {
   const projectDetails = {
     "1": { // myMovieList
       githubUrl: "https://github.com/izzq8/MovieList",
-      driveUrl: "https://drive.google.com/drive/folders/1ijhXOk5wg98XeXq5wytQxKWtj32o-xtM",
+      driveUrl: "/projects/myMovieList/myMovieList.apk",
       liveUrl: null,
       downloadText: "Download APK"
     },
